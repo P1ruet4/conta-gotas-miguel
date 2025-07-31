@@ -35,12 +35,8 @@ header {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    
-    cursor: pointer;
 }
-a{
-    text-decoration: none ;
-}
+
 #menu > li{
     list-style: none;
     font-size: 30px;
@@ -51,6 +47,7 @@ a{
     background-color: #0a4b73;
     border-radius: 10px;
     color: white;
+    cursor: pointer;
 }
 main {
     height: 840px;
