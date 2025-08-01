@@ -63,20 +63,69 @@ main {
 #video{
     height: 495px;
     width: 45%;
+    text-align: center;
+}
+#video > iframe {
+    margin-top: 20px;
 }
 #lado-direito{
     height: 495px;
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
 }
 #redes{
     height: 35%;
+    text-align: center;
 }
 #login{
     height: 64%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #0a4b73;
+}
+.opções{
+    width: 75%;
+    height: 45px;
+    background-color: #2484bf;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+#opções::placeholder{
+   text-align: center;
+   color: white;
+}
+#mais{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    width: 20%;
+    height: 40px;
+    background-color: #4fce2d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
 }
 #apoio{
     height: 190px;
-    width: 90%;
+    width: 95%;
+    text-align: center;
+}
+#apoio > img{
+    margin-top: -40px;
 }
 #video, #redes, #login, #apoio{
     background-color: white;
